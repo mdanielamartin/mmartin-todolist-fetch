@@ -1,11 +1,81 @@
-/* 
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+    background-color: rgba(250, 245, 245, 0.836);
+}
 
-*/
+
+.page {
+    width: 50vw;
+    border: 1px solid black;
+    padding:10px;
+background-color: white;}
+
+
+.title {
+    position:relative ;
+    font-family: "Caveat Brush", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 65px;
+    text-align: center;
+    color: rgb(81, 153, 235);
+}
+
+.list-items{
+    font-family: "Comic Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: rgb(178, 175, 175);
+    word-wrap: break-word;
+    word-break: break-word;
+    white-space: normal;
+}
+
+.task-done{
+    text-decoration: line-through;
+    text-decoration-color: rgb(81, 153, 235);
+}
+
+.delete {
+    color:rgb(81, 153, 235);
+    margin-right: 10px;
+    margin-left: auto;
+    float: right;
+    font-size: 30px;
+    margin-top: 5px;
+    display: none;
+}
+
+.delete-show {
+    display:block;
+    cursor: pointer;
+}
+
+.input-bar {
+
+    font-family: "Comic Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: rgb(178, 175, 175);
+    border:none;
+    border-bottom: 1pt solid;
+    border-radius: 0;
+}
+
+.task-counter {
+    font-family: "Comic Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    color: rgb(178, 175, 175);
+}
+
+.form-check-input{
+    color:rgb(81, 153, 235); ;
+}

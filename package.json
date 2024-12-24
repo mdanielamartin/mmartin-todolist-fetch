@@ -12,7 +12,17 @@
   "dependencies": {
     "bootstrap": "^5.2.2",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "@fortawesome/fontawesome-svg-core": "^6.7.2",
+		"@fortawesome/free-brands-svg-icons": "^6.7.2",
+		"@fortawesome/free-regular-svg-icons": "^6.7.2",
+		"@fortawesome/free-solid-svg-icons": "^6.7.2",
+		"@fortawesome/react-fontawesome": "^0.2.2",
+		"prop-types": "^15.7.2",
+		"query-string": "^7.0.1",
+		"react-polyfills": "0.0.1",
+		"react-router": "^6.0.2"
+
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
@@ -24,4 +34,5 @@
     "eslint-plugin-react-refresh": "^0.4.6",
     "vite": "^5.2.0"
   }
+
 }
