@@ -12,7 +12,8 @@ body{
     width: 50vw;
     border: 1px solid black;
     padding:10px;
-background-color: white;}
+    background-color: white;
+}
 
 
 .title {
@@ -78,4 +79,15 @@ background-color: white;}
 
 .form-check-input{
     color:rgb(81, 153, 235); ;
+}
+
+
+.login {
+    background-color: rgba(250, 245, 245, 1);
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    width: 45vw;
+    border-radius: 12px;
+    height:120px;
+    margin: auto;
 }
